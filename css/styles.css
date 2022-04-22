@@ -119,4 +119,12 @@ a {
 .links-icon {
   width: 3rem;
   height: 3rem;
+  transition: 0.5s ease;
+}
+
+.links-icon:hover {
+  width: 4rem;
+  height: 4rem;
+  border: 0.5rem solid #172b4d;
+  padding: 0.5rem;
 }
