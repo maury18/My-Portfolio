@@ -31,6 +31,10 @@ a {
   margin: 0 auto;
 }
 
+.absolute-container {
+  margin: 0 1rem;
+}
+
 /** HEADER **/
 .header {
   display: flex;
@@ -41,24 +45,23 @@ a {
 
 .header-logo {
   color: #6070ff;
-  margin-left: 5rem;
+  font-weight: bold;
   font-size: 3rem;
   text-transform: capitalize;
   text-decoration: none;
 }
 
 .header-icon {
-  margin-right: 5rem;
-  font-size: 4rem;
+  font-size: 2.2rem;
   color: #6070ff;
-  padding: 1rem;
+  padding: 0.5rem;
   transition: 0.5s ease;
 }
 
 .header-icon:hover {
   cursor: pointer;
   border: 0.5rem solid #6070ff;
-  font-size: 4.5rem;
+  font-size: 2.5rem;
 }
 
 /** SECTION */
@@ -66,21 +69,14 @@ a {
   position: relative;
   background-image: url(../img/background.jpg);
   min-width: 30.75rem;
-  min-height: 85rem;
+  min-height: 70.18rem;
   background-repeat: no-repeat;
   background-size: 100%;
-}
-
-.section-info {
-  margin-top: 4rem;
-  padding: 2rem 0;
 }
 
 .info-display {
   position: absolute;
   top: 9rem;
-  margin-right: auto;
-  margin-left: auto;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
@@ -89,12 +85,14 @@ a {
 .info-heading {
   color: #172b4d;
   font-weight: bold;
-  font-size: 7rem;
+  font-size: 4rem;
+  line-height: 5rem;
 }
 
 .info-paragraph {
-  font-size: 2.8rem;
+  font-size: 1.6rem;
   color: #172b4d;
+  line-height: 2.4rem;
 }
 
 .info-heading2 {
