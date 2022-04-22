@@ -1,0 +1,106 @@
+html {
+  font-size: 62.5%; /* Now 10px = 1rem! */
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/** GLOBALS **/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/** UTILITIES **/
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/** HEADER **/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.header-heading {
+  color: #6000ec;
+  margin-left: 5rem;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.header-icon {
+  margin-right: 5rem;
+  font-size: 4rem;
+  color: #6000ec;
+  padding: 1rem;
+  transition: 0.5s ease;
+}
+
+.header-icon:hover {
+  cursor: pointer;
+  border: 0.5rem solid #6000ec;
+  font-size: 4.5rem;
+}
+
+.section-info {
+  margin-top: 4rem;
+  height: 100%;
+  background-image: url(../img/background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 2rem 0;
+}
+
+.info-display {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.info-heading {
+  color: #00215b;
+  font-weight: bold;
+  font-size: 7rem;
+}
+
+.info-paragraph {
+  font-size: 2.8rem;
+  color: #00215b;
+}
+
+.info-heading2 {
+  font-size: 3rem;
+  color: #6000ec;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.info-icon {
+  display: flex;
+  gap: 2rem;
+}
+
+.info-icon i {
+  color: #415c68;
+  font-size: 4rem;
+  transition: 0.5s ease;
+}
+
+.info-icon i:hover {
+  font-size: 5rem;
+}
