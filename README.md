@@ -1,14 +1,12 @@
 # My-Portfolio
 
-> This is a html project for my portfolio, here it comes the first 2 sections.
+> This is an HTML project about my portfolio, here comes the first 2 sections, then the projects section where you can see a few projects, and at the end you can see an about me section
 
 ## Built With
 
 - Html
 - Css
 - Linters
-- Icons from Fontawesome
-- Box shadow generator
 
 ## Live Demo (if available)
 
