@@ -394,13 +394,15 @@ li {
   padding-top: 5rem;
   position: relative;
 }
+
 .form-rectangle {
   position: absolute;
   width: 7.47rem;
-  height: 1.7.21rem;
+  height: 1.7rem;
   top: 1rem;
   right: 0;
 }
+
 .form-half-circle {
   position: absolute;
   width: 5rem;
@@ -408,6 +410,7 @@ li {
   top: 4rem;
   right: 0;
 }
+
 .form-img1 {
   position: absolute;
   width: 2.1rem;
@@ -415,6 +418,7 @@ li {
   top: 5rem;
   left: 15rem;
 }
+
 .form-heading {
   text-align: center;
   font-size: 4rem;
@@ -422,18 +426,20 @@ li {
   color: #fff;
   margin-top: 6rem;
 }
+
 .form-paragraph {
   font-size: 2rem;
   font-weight: 300;
   text-align: center;
-  line-height: color;
   padding-top: 3rem;
   line-height: 2.8rem;
   color: #fff;
 }
+
 form {
   margin-top: 2rem;
 }
+
 fieldset {
   border: none;
   margin-top: 2rem;
@@ -454,6 +460,7 @@ fieldset {
   margin-bottom: 1.5rem;
   border: none;
 }
+
 .submit {
   background-color: #fff;
   color: #6070ff;
@@ -467,11 +474,13 @@ fieldset {
   margin-bottom: 4rem;
   align-self: flex-start;
 }
+
 .submit:hover {
   background-color: #6070ff;
   color: #fff;
   border: 0.2rem solid #fff;
 }
+
 .form-last-rectangle {
   position: absolute;
   width: 7rem;
@@ -479,6 +488,7 @@ fieldset {
   top: 73.3rem;
   right: 5rem;
 }
+
 .form-last-circle {
   position: absolute;
   width: 3.1rem;
@@ -486,6 +496,7 @@ fieldset {
   top: 75.7rem;
   right: 8.56rem;
 }
+
 .form-black-rectangle {
   position: absolute;
   width: 13rem;
