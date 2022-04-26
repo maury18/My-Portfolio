@@ -437,7 +437,10 @@ form {
 fieldset {
   border: none;
   margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
 }
+
 .text,
 .email,
 .text-area {
@@ -462,6 +465,7 @@ fieldset {
   text-transform: capitalize;
   transition: 0.5s ease;
   margin-bottom: 4rem;
+  align-self: flex-start;
 }
 .submit:hover {
   background-color: #6070ff;
