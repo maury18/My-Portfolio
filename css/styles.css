@@ -56,7 +56,9 @@ li {
   align-items: center;
   padding-top: 2rem;
 }
-
+.nav-links {
+  display: none;
+}
 .header-logo {
   color: #6070ff;
   font-weight: bold;
@@ -77,7 +79,37 @@ li {
   border: 0.5rem solid #6070ff;
   font-size: 2.5rem;
 }
-
+@media (min-width: 1024px) {
+  .header-logo {
+    margin-left: 5rem;
+  }
+  .header-icon {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    margin-right: 5rem;
+  }
+  .nav-links a {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #344563;
+    transition: all 0.5s ease;
+  }
+  .nav-links a:hover {
+    background-color: #6070ff;
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+  }
+  .nav-links a::after {
+    background-color: #2230d2;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+  }
+}
 /** INFO SECTION **/
 .background {
   position: relative;
@@ -87,7 +119,9 @@ li {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
+.back-images {
+  display: none;
+}
 .info-display {
   position: absolute;
   top: 9rem;
@@ -107,6 +141,10 @@ li {
   font-size: 1.6rem;
   color: #172b4d;
   line-height: 2.4rem;
+}
+.desktop1,
+.desktop2 {
+  display: none;
 }
 
 .info-heading2 {
@@ -140,6 +178,114 @@ li {
   height: 4rem;
   border: 0.5rem solid #172b4d;
   padding: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .background {
+    background-image: none;
+    background-color: #fff;
+    position: relative;
+  }
+
+  .back-images {
+    display: block;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 11rem;
+    height: 5rem;
+    top: 3rem;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 20rem;
+    height: 9rem;
+    top: 2rem;
+    right: 2%;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 8rem;
+    height: 4rem;
+    top: 9%;
+    left: 3.8%;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 5.6rem;
+    height: 2rem;
+    top: 14%;
+    left: 46.1%;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 2.3rem;
+    height: 2.3rem;
+    top: 16%;
+    right: 50%;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    top: 10%;
+    right: 2%;
+  }
+
+  .image7 {
+    position: absolute;
+    width: 3.6rem;
+    height: 1.8rem;
+    top: 80%;
+    left: 18%;
+  }
+
+  .image8 {
+    position: absolute;
+    width: 3.6rem;
+    height: 4.6rem;
+    top: 81%;
+    left: 17%;
+  }
+
+  .image9 {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 80%;
+    left: 68.5%;
+  }
+
+  .image10 {
+    position: absolute;
+    width: 16.1rem;
+    height: 6rem;
+    top: 80%;
+    left: 60%;
+  }
+
+  .info-display {
+    margin-left: 20rem;
+    margin-top: 8rem;
+  }
+
+  .info-heading br:nth-child(2) {
+    display: none;
+  }
+
+  .info-paragraph br {
+    display: none;
+  }
+  .desktop1,
+  .desktop2 {
+    display: block !important;
+  }
 }
 
 /** PROJECTS SECTION **/
