@@ -1,6 +1,6 @@
 # My-Portfolio
 
-> This is an HTML project about my portfolio, here comes the first 2 sections, then the projects section where you can see a few projects,about me section and the form section.
+> This is an HTML project about my portfolio, here comes the first 2 sections, then the projects section where you can see a few projects,about me section and the form section, this porject is responsive for a 375px screen(mobile screen) and a 1021px screen(desktop screen).
 
 ## Built With
 

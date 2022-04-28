@@ -50,15 +50,18 @@ li {
 .first-background {
   background-color: #e5e5e5;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 2rem;
 }
+
 .nav-links {
   display: none;
 }
+
 .header-logo {
   color: #6070ff;
   font-weight: bold;
@@ -79,30 +82,36 @@ li {
   border: 0.5rem solid #6070ff;
   font-size: 2.5rem;
 }
+
 @media (min-width: 1024px) {
   .header-logo {
     margin-left: 5rem;
   }
+
   .header-icon {
     display: none;
   }
+
   .nav-links {
     display: flex;
     gap: 2rem;
     margin-right: 5rem;
   }
+
   .nav-links a {
     font-size: 1.5rem;
     font-weight: 500;
     color: #344563;
     transition: all 0.5s ease;
   }
+
   .nav-links a:hover {
     background-color: #6070ff;
     color: #fff;
     padding: 0.7rem;
     border-radius: 0.5rem;
   }
+
   .nav-links a:active::after {
     background-color: red;
     color: white;
@@ -110,7 +119,9 @@ li {
     border: none;
   }
 }
+
 /** INFO SECTION **/
+
 .background {
   position: relative;
   background-color: #fff;
@@ -120,9 +131,11 @@ li {
   background-size: 100%;
   border-bottom-left-radius: 10rem;
 }
+
 .back-images {
   margin-bottom: 2rem;
 }
+
 .image1 {
   position: absolute;
   width: 11rem;
@@ -211,6 +224,7 @@ li {
   top: 10%;
   right: 40%;
 }
+
 .image12 {
   position: absolute;
   width: 1.5rem;
@@ -218,6 +232,7 @@ li {
   top: 35%;
   right: 15%;
 }
+
 .image13 {
   position: absolute;
   width: 2.2rem;
@@ -392,13 +407,14 @@ li {
     margin-top: 8rem;
   }
 
+  .info-paragraph br {
+    display: none;
+  }
+
   .info-heading br:nth-child(2) {
     display: none;
   }
 
-  .info-paragraph br {
-    display: none;
-  }
   .desktop1,
   .desktop2 {
     display: block !important;
@@ -406,15 +422,18 @@ li {
 }
 
 /** PROJECTS SECTION **/
+
 .desktop-project1,
 .desktop-project2,
 .desktop-project3,
 .desktop-project4 {
   display: none;
 }
+
 .desktop-background {
   display: none;
 }
+
 .desktop-project1-br1,
 .desktop-project2-br1,
 .desktop-project2-br2 {
@@ -535,6 +554,7 @@ li {
   .projects-section {
     display: none;
   }
+
   .desktop-background {
     display: block;
     background-color: #e5e5e5;
@@ -553,9 +573,11 @@ li {
     justify-content: center;
     align-items: center;
   }
+
   .desktop-project1 {
     justify-content: center !important;
   }
+
   .desktop-project1 br {
     display: none;
   }
@@ -563,15 +585,18 @@ li {
   .desktop-project1-br1 {
     display: block;
   }
+
   .desktop-project2,
   .desktop-project3,
   .desktop-project4 {
     margin-top: 10rem;
   }
+
   .desktop-project2,
   .desktop-project4 {
     flex-direction: row-reverse;
   }
+
   .desktop-project2-br1,
   .desktop-project2-br2 {
     display: block;
@@ -589,12 +614,14 @@ li {
     font-weight: 700;
     margin-bottom: 2rem;
   }
+
   .text-display {
     display: flex;
     align-items: center;
     gap: 2rem;
     margin-bottom: 2rem;
   }
+
   .text-canopy {
     font-size: 1.8rem;
     line-height: 2.4rem;
@@ -650,6 +677,7 @@ li {
   color: #172b4d;
   font-size: 4rem;
 }
+
 .about .info-heading2 {
   margin-top: 2rem;
 }
@@ -962,10 +990,12 @@ fieldset {
   bottom: 1rem;
   right: 11rem;
 }
+
 @media (min-width: 1024px) {
   fieldset {
     padding-top: 2rem;
   }
+
   .text,
   .email,
   .text-area {
@@ -974,14 +1004,17 @@ fieldset {
     margin-left: auto;
     margin-right: auto;
   }
+
   .submit {
     width: 25%;
     margin: 2rem auto 10rem auto;
   }
+
   .form-img1 {
     top: 10%;
     left: 25%;
   }
+
   .form-rectangle {
     display: none;
   }
@@ -1027,10 +1060,12 @@ fieldset {
     top: 91.5%;
     left: 18.5%;
   }
+
   .form-half-circle {
     right: 10%;
     transform: rotate(40deg);
   }
+
   .form-last-rectangle3 {
     display: block;
     position: absolute;
