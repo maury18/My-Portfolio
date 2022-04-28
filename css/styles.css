@@ -68,6 +68,19 @@ li {
   font-size: 3rem;
   text-transform: capitalize;
   text-decoration: none;
+  animation-name: header;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes header {
+  from {
+    margin-left: -30%;
+  }
+
+  to {
+    margin-left: 3.6%;
+  }
 }
 
 .header-icon {
