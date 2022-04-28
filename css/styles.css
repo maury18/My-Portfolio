@@ -713,6 +713,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .about-languajes--heading {
@@ -827,7 +828,17 @@ li {
 .last-background {
   background-color: #fff;
 }
+
 /** FORM SECTION **/
+
+.form-black-rectangle2,
+.form-last-elipse,
+.form-last-rectangle2,
+.form-last-elipse2,
+.form-last-rectangle3 {
+  display: none;
+}
+
 .form-section {
   background-color: #6070ff;
   border-top-left-radius: 10rem;
@@ -965,7 +976,7 @@ fieldset {
   }
   .submit {
     width: 25%;
-    margin: 2rem auto 2rem auto;
+    margin: 2rem auto 10rem auto;
   }
   .form-img1 {
     top: 10%;
@@ -975,7 +986,12 @@ fieldset {
     display: none;
   }
 
+  .form-black-rectangle {
+    display: none;
+  }
+
   .form-black-rectangle2 {
+    display: block;
     position: absolute;
     width: 6rem;
     height: 6rem;
@@ -985,8 +1001,43 @@ fieldset {
   }
 
   .form-last-elipse {
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 50.5%;
+    left: 5%;
   }
 
-  .form-last.elipse2 {
+  .form-last-rectangle2 {
+    display: block;
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 90%;
+    left: 17%;
+    transform: rotate(30deg);
+  }
+
+  .form-last-elipse2 {
+    display: block;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 91.5%;
+    left: 18.5%;
+  }
+  .form-half-circle {
+    right: 10%;
+    transform: rotate(40deg);
+  }
+  .form-last-rectangle3 {
+    display: block;
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    top: 2.8%;
+    right: 11%;
+    transform: rotate(288deg);
   }
 }
