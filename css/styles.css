@@ -12,7 +12,6 @@ html {
 /** GLOBALS **/
 body {
   font-family: "Poppins", sans-serif;
-  background-color: none;
 }
 
 h1,
@@ -122,6 +121,130 @@ li {
 
 /** INFO SECTION **/
 
+.back-images {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.d-left-rec,
+.d-left-elipse,
+.d-mid-rec,
+.d-mid-elipse,
+.d-right-rec,
+.d-right-elipse,
+.d-bottom-left-elipse,
+.d-bottom-left-elipse2,
+.d-bottom-mid-elipse,
+.d-bottom-mid-rec,
+.d-bottom-right-rec,
+.d-bottom-right-elipse {
+  display: none;
+}
+
+.left-rect {
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  top: 5rem;
+  left: -7%;
+}
+
+.left-elipse {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: 7.2rem;
+  left: -2.5%;
+}
+
+.mid-lef-rect {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: 10rem;
+  left: 13rem;
+}
+
+.mid-left-elipse {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 11.3rem;
+  left: 13rem;
+}
+
+.mid-elipse {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: 6.5rem;
+  right: 10rem;
+}
+
+.right-rect {
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  top: 8rem;
+  right: 0;
+}
+
+.right-elipse {
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  top: 12rem;
+  right: 0;
+}
+
+.center-elipse {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 28rem;
+  right: 4rem;
+}
+
+.bottom-right-elipse {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: 54rem;
+  right: 2rem;
+}
+
+.bottom-right-elipse2 {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  top: 55.7rem;
+  right: 2.5rem;
+}
+
+.bottom-mid-elipse {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 67.8rem;
+  right: 11rem;
+}
+
+.bottom-mid-rec {
+  position: absolute;
+  width: 8rem;
+  height: 6rem;
+  top: 67rem;
+  right: 11rem;
+}
+
+.bottom-left-elipse {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: 67rem;
+  left: 4rem;
+}
+
 .background {
   position: relative;
   background-color: #fff;
@@ -130,115 +253,6 @@ li {
   background-repeat: no-repeat;
   background-size: 100%;
   border-bottom-left-radius: 10rem;
-}
-
-.back-images {
-  margin-bottom: 2rem;
-}
-
-.image1 {
-  position: absolute;
-  width: 11rem;
-  height: 5rem;
-  top: 3rem;
-  left: -18%;
-}
-
-.image2 {
-  position: absolute;
-  width: 20rem;
-  height: 9rem;
-  top: 5rem;
-  right: -20%;
-}
-
-.image3 {
-  position: absolute;
-  width: 8rem;
-  height: 4rem;
-  top: 7%;
-  left: -13%;
-}
-
-.image4 {
-  position: absolute;
-  width: 3rem;
-  height: 2rem;
-  transform: rotate(50deg);
-  top: 14%;
-  left: 35%;
-}
-
-.image5 {
-  position: absolute;
-  width: 1.5rem;
-  height: 1.5rem;
-  top: 15.4%;
-  right: 61%;
-}
-
-.image6 {
-  position: absolute;
-  width: 11rem;
-  height: 11rem;
-  top: 15%;
-  right: -15%;
-}
-
-.image7 {
-  position: absolute;
-  width: 3.6rem;
-  height: 1.8rem;
-  top: 73%;
-  right: 10%;
-}
-
-.image8 {
-  position: absolute;
-  width: 3.6rem;
-  height: 4.6rem;
-  top: 74.3%;
-  right: 11.5%;
-}
-
-.image9 {
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  top: 87%;
-  left: 60%;
-}
-
-.image10 {
-  position: absolute;
-  width: 8rem;
-  height: 5rem;
-  top: 86%;
-  left: 44%;
-}
-
-.image11 {
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  top: 10%;
-  right: 40%;
-}
-
-.image12 {
-  position: absolute;
-  width: 1.5rem;
-  height: 1.5rem;
-  top: 35%;
-  right: 15%;
-}
-
-.image13 {
-  position: absolute;
-  width: 2.2rem;
-  height: 2.2rem;
-  top: 85%;
-  left: 12%;
 }
 
 .info-display {
@@ -306,104 +320,121 @@ li {
     border-bottom-left-radius: 10%;
   }
 
-  .back-images {
-    display: block;
-  }
-
-  .image1 {
-    position: absolute;
-    width: 11rem;
-    height: 5rem;
-    top: 3rem;
-  }
-
-  .image2 {
-    position: absolute;
-    width: 20rem;
-    height: 9rem;
-    top: 2rem;
-    right: 2%;
-  }
-
-  .image3 {
-    position: absolute;
-    width: 8rem;
-    height: 4rem;
-    top: 9%;
-    left: 3.8%;
-  }
-
-  .image4 {
-    position: absolute;
-    width: 5.6rem;
-    height: 2rem;
-    top: 13.5%;
-    left: 46.1%;
-    transform: none;
-  }
-
-  .image5 {
-    position: absolute;
-    width: 2.3rem;
-    height: 2.3rem;
-    top: 16%;
-    right: 50%;
-  }
-
-  .image6 {
-    position: absolute;
-    width: 13rem;
-    height: 13rem;
-    top: 10%;
-    right: 2%;
-  }
-
-  .image7 {
-    position: absolute;
-    width: 3.6rem;
-    height: 1.8rem;
-    top: 80%;
-    left: 18%;
-  }
-
-  .image8 {
-    position: absolute;
-    width: 3.6rem;
-    height: 4.6rem;
-    top: 81%;
-    left: 17%;
-  }
-
-  .image9 {
-    position: absolute;
-    width: 3rem;
-    height: 3rem;
-    top: 80%;
-    left: 68.5%;
-  }
-
-  .image10 {
-    position: absolute;
-    width: 16.1rem;
-    height: 6rem;
-    top: 81%;
-    left: 60%;
-  }
-
-  .image11,
-  .image13 {
+  .left-rect,
+  .left-elipse,
+  .mid-lef-rect,
+  .mid-left-elipse,
+  .mid-elipse,
+  .right-rect,
+  .right-elipse,
+  .center-elipse,
+  .bottom-right-elipse,
+  .bottom-right-elipse2,
+  .bottom-mid-elipse,
+  .bottom-mid-rec,
+  .bottom-left-elipse {
     display: none;
   }
 
-  .image12 {
+  .d-left-rec {
+    display: block;
+    position: absolute;
     width: 5rem;
     height: 5rem;
-    top: 60%;
-    right: 10%;
+    left: 3.5rem;
+  }
+
+  .d-left-elipse {
+    display: block;
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    top: 2rem;
+    left: 6.7rem;
+  }
+
+  .d-mid-rec {
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 2rem;
+    left: 50rem;
+  }
+
+  .d-mid-elipse {
+    display: block;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 3.9rem;
+    left: 50.5rem;
+  }
+
+  .d-right-rec {
+    display: block;
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    top: -2rem;
+    right: 4rem;
+  }
+
+  .d-right-elipse {
+    display: block;
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    top: 5rem;
+    right: 2rem;
+  }
+
+  .d-bottom-left-elipse {
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 55rem;
+    left: 6rem;
+  }
+
+  .d-bottom-left-elipse2 {
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 57rem;
+    left: 5.6rem;
+  }
+
+  .d-bottom-mid-elipse {
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 57rem;
+    left: 55rem;
+  }
+
+  .d-bottom-mid-rec {
+    display: block;
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    top: 53.7rem;
+    left: 46rem;
+  }
+
+  .d-bottom-right-elipse {
+    display: block;
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    top: 40rem;
+    right: 20rem;
   }
 
   .info-display {
-    margin-left: 20rem;
     margin-top: 8rem;
   }
 
@@ -421,7 +452,7 @@ li {
   }
 }
 
-/** PROJECTS SECTION **/
+/* /** PROJECTS SECTION * */
 
 .desktop-project1,
 .desktop-project2,
@@ -671,6 +702,7 @@ li {
 .about-display {
   display: grid;
   row-gap: 1rem;
+  margin-bottom: 4rem;
 }
 
 .about-heading {
@@ -795,6 +827,7 @@ li {
 .frameworks-skills-heading {
   font-size: 2rem;
   color: #344563;
+  margin-top: 3rem;
 }
 
 .frameworks-skills-paragraph {
@@ -858,12 +891,15 @@ li {
 }
 
 /** FORM SECTION **/
-
-.form-black-rectangle2,
-.form-last-elipse,
-.form-last-rectangle2,
-.form-last-elipse2,
-.form-last-rectangle3 {
+.d-form-paragraph,
+.d-f-left-elipse,
+.d-f-right-rec,
+.d-f-right-elipse,
+.d-f-left-mid-rec,
+.d-f-left-mid-elipse,
+.d-f-right-mid-elipse,
+.d-f-bottom-rec,
+.d-f-bottom-elipse {
   display: none;
 }
 
@@ -874,28 +910,51 @@ li {
   position: relative;
 }
 
-.form-rectangle {
+.f-mid-elipse {
   position: absolute;
-  width: 5.4rem;
-  height: 3.6rem;
-  top: 2rem;
+  width: 3rem;
+  height: 3rem;
+  left: 40%;
+}
+
+.f-right-rec {
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  top: 1.5%;
   right: 0;
 }
 
-.form-half-circle {
+.f-right-elipse {
   position: absolute;
-  width: 5rem;
-  height: 8.9rem;
-  top: 4rem;
+  width: 6rem;
+  height: 9rem;
+  top: 7%;
   right: 0;
 }
 
-.form-img1 {
+.f-bottom-rec {
   position: absolute;
-  width: 2.1rem;
-  height: 2.1rem;
-  top: 5rem;
-  left: 15rem;
+  width: 8rem;
+  height: 9rem;
+  top: 84.5%;
+  right: 12%;
+}
+
+.f-bottom-elipse {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  top: 90%;
+  right: 22%;
+}
+
+.f-black-rec {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  top: 93%;
+  right: 37%;
 }
 
 .form-heading {
@@ -996,83 +1055,116 @@ fieldset {
     padding-top: 2rem;
   }
 
-  .text,
-  .email,
-  .text-area {
-    width: 50%;
-    border-radius: 0;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .submit {
-    width: 25%;
-    margin: 2rem auto 10rem auto;
-  }
-
-  .form-img1 {
-    top: 10%;
-    left: 25%;
-  }
-
-  .form-rectangle {
+  .form-paragraph {
     display: none;
   }
 
-  .form-black-rectangle {
+  .d-form-paragraph {
+    display: block;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 3rem;
+    line-height: 2.8rem;
+    color: #fff;
+  }
+
+  .f-mid-elipse,
+  .f-right-rec,
+  .f-right-elipse,
+  .f-bottom-rec,
+  .f-bottom-elipse,
+  .f-black-rec {
     display: none;
   }
 
-  .form-black-rectangle2 {
-    display: block;
-    position: absolute;
-    width: 6rem;
-    height: 6rem;
-    transform: rotate(350deg);
-    left: 5%;
-    top: 47%;
-  }
-
-  .form-last-elipse {
-    display: block;
-    position: absolute;
-    width: 3rem;
-    height: 3rem;
-    top: 50.5%;
-    left: 5%;
-  }
-
-  .form-last-rectangle2 {
-    display: block;
-    position: absolute;
-    width: 2.5rem;
-    height: 2.5rem;
-    top: 90%;
-    left: 17%;
-    transform: rotate(30deg);
-  }
-
-  .form-last-elipse2 {
+  .d-f-left-elipse {
     display: block;
     position: absolute;
     width: 2rem;
     height: 2rem;
-    top: 91.5%;
-    left: 18.5%;
+    top: 8%;
+    left: 25%;
   }
 
-  .form-half-circle {
-    right: 10%;
-    transform: rotate(40deg);
-  }
-
-  .form-last-rectangle3 {
+  .d-f-right-rec {
     display: block;
     position: absolute;
-    width: 5rem;
-    height: 5rem;
-    top: 2.8%;
-    right: 11%;
-    transform: rotate(288deg);
+    width: 10rem;
+    height: 10rem;
+    top: 2%;
+    right: 10%;
+  }
+
+  .d-f-right-elipse {
+    display: block;
+    position: absolute;
+    width: 12rem;
+    height: 10rem;
+    top: 8.9%;
+    right: 7%;
+  }
+
+  .d-f-left-mid-rec {
+    display: block;
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    top: 40%;
+    left: 5%;
+  }
+
+  .d-f-left-mid-elipse {
+    display: block;
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    top: 44.5%;
+    left: 5%;
+  }
+
+  .d-f-right-mid-elipse {
+    display: block;
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    top: 60%;
+    right: 10%;
+  }
+
+  .d-f-bottom-rec {
+    display: block;
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    bottom: 10%;
+    left: 15%;
+  }
+
+  .d-f-bottom-elipse {
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    bottom: 9%;
+    left: 16.8%;
+  }
+
+  .text,
+  .email,
+  .text-area {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0;
+  }
+
+  .text-area {
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .submit {
+    width: 20%;
+    margin: 2rem auto 15rem auto;
   }
 }
