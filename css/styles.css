@@ -295,7 +295,7 @@ li {
 
 .info-heading2 {
   font-size: 1.6rem;
-  color: #7f8cff;
+  color: #0016df;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -522,7 +522,7 @@ li {
   font-size: 1.3rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #344563;
+  color: #0016df;
 }
 
 .project-1-icon1,
@@ -535,17 +535,17 @@ li {
 .project1--paragraph2 {
   text-transform: capitalize;
   font-size: 1.3rem;
-  color: #7a869a;
+  color: #0016df;
 }
 
 .project1--paragraph3 {
   font-size: 1.3rem;
-  color: #7a869a;
+  color: #0016df;
 }
 
 .project1--paragraph4 {
   font-size: 1.5rem;
-  color: #344563;
+  color: #0016df;
   line-height: 2.4rem;
 }
 
@@ -559,7 +559,7 @@ li {
 .project1--link2,
 .project1--link3 {
   font-size: 1.2rem;
-  color: #6070ff;
+  color: #0016df;
   background-color: #ebebff;
   padding: 0.5rem 1rem;
   border-radius: 0.8rem;
@@ -570,7 +570,7 @@ li {
   width: 11rem;
   font-size: 1.7rem;
   font-weight: 500;
-  color: #396df2;
+  color: #0016df;
   border: 0.2rem solid #396df2;
   display: block;
   padding: 1rem 0;
@@ -917,7 +917,7 @@ li {
 }
 
 .form-section {
-  background-color: #6070ff;
+  background-color: #0016df;
   border-top-left-radius: 10rem;
   padding-top: 5rem;
   position: relative;
@@ -1014,7 +1014,7 @@ fieldset {
 
 .submit {
   background-color: #fff;
-  color: #6070ff;
+  color: #0016df;
   font-size: 1.7rem;
   font-weight: 500;
   padding: 2rem 1rem;
