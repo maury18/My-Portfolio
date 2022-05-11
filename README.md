@@ -50,6 +50,10 @@ Code editor.
 
 ## 🤝 Contributing
 
+- GitHub: [@HansZizold](https://github.com/HansZizold)
+- Twitter: [@hanzio27](https://twitter.com/hanzio27)
+- LinkedIn: [Hans Zizold](https://www.linkedin.com/in/hans-paul-zizold-37129037/)
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
