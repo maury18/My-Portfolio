@@ -12,6 +12,7 @@
     <script src="https://kit.fontawesome.com/3167ce6dab.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./scripts/scripts.js" defer></script>
 </head>
 
 <body>
@@ -19,47 +20,22 @@
         <div class="header container">
             <a class="header-logo" href="/">My Logo</a>
             <nav>
-                <i class="header-icon fa-solid fa-bars"></i>
+                <i id="icon" class="header-icon fa-solid fa-bars"></i>
                 <div class="nav-links">
-                    <a href="">Portfolio</a>
-                    <a href="">About</a>
-                    <a href="">Contact</a>
+                    <a href="#" class="close-menu">X</a>
+                    <a href="#projects" class="project-js">Portfolio</a>
+                    <a href="#desktop-project" class="desktop-project-js">Portfolio</a>
+                    <a href="#about" class="about-js">About</a>
+                    <a href="#desktop-about" class="desktop-about-js">About</a>
+                    <a href="#form" class="form-js">Contact</a>
                 </div>
             </nav>
         </div>
     </header>
     <div class="first-background">
         <section class="section-info">
-            <div class="background">
-                <div class="back-images">
-                    <img src="./img/Mobile-version/left-rect.svg" alt="" class="left-rect" />
-                    <img src="./img/Mobile-version/left-elipse.svg" alt="" class="left-elipse" />
-                    <img src="./img/Mobile-version/mid-lef-rect.svg" alt="" class="mid-lef-rect" />
-                    <img src="./img/Mobile-version/mid-left-elipse.svg" alt="" class="mid-left-elipse" />
-                    <img src="./img/Mobile-version/mid-elipse.svg" alt="" class="mid-elipse" />
-                    <img src="./img/Mobile-version/right-rect.svg" alt="" class="right-rect" />
-                    <img src="./img/Mobile-version/right-elipse.svg" alt="" class="right-elipse" />
-                    <img src="./img/Mobile-version/center-elipse.svg" alt="" class="center-elipse" />
-                    <img src="./img/Mobile-version/bottom-right-elipse.svg" alt="" class="bottom-right-elipse" />
-                    <img src="./img/Mobile-version/bottom-right-elipse2.svg" alt="" class="bottom-right-elipse2" />
-                    <img src="./img/Mobile-version/bottom-mid-elipse.svg" alt="" class="bottom-mid-elipse" />
-                    <img src="./img/Mobile-version/bottom-mid-rec.svg" alt="" class="bottom-mid-rec" />
-                    <img src="./img/Mobile-version/bottom-left-elipse.svg" alt="" class="bottom-left-elipse" />
-                    <img src="./img/Mobile-version/bottom-left-elipse.svg" alt="" class="bottom-left-elipse" />
-
-                    <img src="./img/desktop-version/d-left-rec.svg" alt="" class="d-left-rec">
-                    <img src="./img/desktop-version/d-left-elipse.svg" alt="" class="d-left-elipse">
-                    <img src="./img/desktop-version/d-mid-rec.svg" alt="" class="d-mid-rec">
-                    <img src="./img/desktop-version/d-mid-elipse.svg" alt="" class="d-mid-elipse">
-                    <img src="./img/desktop-version/d-right-rec.svg" alt="" class="d-right-rec">
-                    <img src="./img/desktop-version/d-right-elipse.svg" alt="" class="d-right-elipse">
-                    <img src="./img/desktop-version/d-bottom-left-elipse.svg" alt="" class="d-bottom-left-elipse">
-                    <img src="./img/desktop-version/d-bottom-left-elipse2.svg" alt="" class="d-bottom-left-elipse2">
-                    <img src="./img/desktop-version/d-bottom-mid-elipse.svg" alt="" class="d-bottom-mid-elipse">
-                    <img src="./img/desktop-version/d-bottom-mid-rec.svg" alt="" class="d-bottom-mid-rec">
-                    <img src="./img/desktop-version/d-bottom-right-elipse.svg" alt="" class="d-bottom-right-elipse">
-
-                </div>
+            <div class="info-background">
+                <div class="info-back-image"></div>
                 <div class="info-display container">
                     <h1 class="info-heading">
                         I’m Maury <br />
@@ -80,20 +56,21 @@
                     <div class="info-icon">
                         <ul class="icons">
                             <li>
-                                <a href="https://twitter.com/MauryRodrguez6" role="link" aria-label="Twitter"><img class="links-icon"
-                                        src="./img/twitter.svg" alt="Twitter logo icon" /></a>
+                                <a href="https://twitter.com/MauryRodrguez6" role="link" aria-label="Twitter"><img
+                                        class="links-icon" src="./img/twitter.svg" alt="Twitter logo icon" /></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/mauricio-gallegos-rodr%C3%ADguez-380a96183/" role="link" aria-label="Linkedin" ><img
-                                        class="links-icon" src="./img/linkedin.svg" alt=" Linkedin logo icon" /></a>
+                                <a href="https://www.linkedin.com/in/mauricio-gallegos-rodr%C3%ADguez-380a96183/"
+                                    role="link" aria-label="Linkedin"><img class="links-icon" src="./img/linkedin.svg"
+                                        alt=" Linkedin logo icon" /></a>
                             </li>
                             <li>
-                                <a href="mailto:trypticst@gmail.com?subject=HTMLlink" role="link" aria-label="gmail"><img class="links-icon"
-                                        src="./img/m.svg" alt="Email icon" /></a>
+                                <a href="mailto:trypticst@gmail.com?subject=HTMLlink" role="link"
+                                    aria-label="gmail"><img class="links-icon" src="./img/m.svg" alt="Email icon" /></a>
                             </li>
                             <li>
-                                <a href="https://github.com/maury18" role="link" aria-label="Github"><img class="links-icon" src="./img/github.svg"
-                                        alt="Github logo icon" /></a>
+                                <a href="https://github.com/maury18" role="link" aria-label="Github"><img
+                                        class="links-icon" src="./img/github.svg" alt="Github logo icon" /></a>
                             </li>
                             <li>
                                 <img class="links-icon" src="./img/fingecross.svg" alt="Finger cross icon" />
@@ -104,7 +81,7 @@
             </div>
         </section>
 
-        <main class="projects-section">
+        <main class="projects-section" id="projects">
             <div class="project-2 container">
                 <img src="./img/work1.png" alt="First project image" class="project-1--img" />
                 <h3 class="project-1--heading">Tonic</h3>
@@ -210,7 +187,7 @@
         </main>
 
         <div class="desktop-background">
-            <div class="desktop-project1">
+            <div class="desktop-project1" id="desktop-project">
                 <img src="./img/desktop-version/desktop-project1.svg" alt="" class="project1-img1" />
                 <div class="desktop1-project1-text">
                     <h3 class="text-tonic">Tonic</h3>
@@ -309,7 +286,7 @@
             </div>
         </div>
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-display container">
                 <div class="about-desktop1">
                     <h2 class="about-heading">About <br />Myself</h2>
@@ -378,7 +355,7 @@
             </div>
         </section>
 
-        <section class="about-desktop-version">
+        <section class="about-desktop-version" id="desktop-about">
             <div class="about-display container">
                 <div class="about-desktop1">
                     <h2 class="about-heading">About <br />Myself</h2>
@@ -446,23 +423,8 @@
         </section>
 
         <div class="last-background">
-            <section class="form-section">
-                <img src="./img/Mobile-version/f-mid-elipse.svg" alt="" class="f-mid-elipse">
-                <img src="./img/Mobile-version/f-right-rec.svg" alt="" class="f-right-rec">
-                <img src="./img/Mobile-version/f-right-elipse.svg" alt="" class="f-right-elipse">
-                <img src="./img/Mobile-version/f-bottom-right-rec.svg" alt="" class="f-bottom-rec">
-                <img src="./img/Mobile-version/f-bottom-right-elipse.svg" alt="" class="f-bottom-elipse">
-                <img src="./img/Mobile-version/f-black-rec.svg" alt="" class="f-black-rec">
-
-                <img src="./img/desktop-version/d-f-left-elipse.svg" alt="" class="d-f-left-elipse">
-                <img src="./img/desktop-version/d-f-right-rec.svg" alt="" class="d-f-right-rec">
-                <img src="./img/desktop-version/d-f-right-elipse.svg" alt="" class="d-f-right-elipse">
-                <img src="./img/desktop-version/d-f-left-mid-rec.svg" alt="" class="d-f-left-mid-rec">
-                <img src="./img/desktop-version/d-f-left-mid-elipse.svg" alt="" class="d-f-left-mid-elipse">
-                <img src="./img/desktop-version/d-f-right-mid-elipse.svg" alt="" class="d-f-right-mid-elipse">
-                <img src="./img/desktop-version/d-f-bottom-rec.svg" alt="" class="d-f-bottom-rec">
-                <img src="./img/desktop-version/d-f-bottom-elipse.svg" alt="" class="d-f-bottom-elipse">
-
+            <section class="form-section" id="form">
+                <div class="form-back-image"></div>
                 <h2 class="form-heading">Contact me</h2>
                 <p class="form-paragraph">
                     If you have an application you <br />
