@@ -42,12 +42,6 @@ Code editor.
 - Twitter: https://twitter.com/MauryRodrguez6
 - LinkedIn:https://www.linkedin.com/in/mauricio-gallegos-rodr%C3%ADguez-380a96183/
 
-👤 **Author2**
-
-- GitHub: [@mikemtzp](https://github.com/worashf)
-- Twitter: [@worash](https://twitter.com/mikemtzp)
-- LinkedIn: [Worash Bocherugn](https://www.linkedin.com/in/miguel-mart%C3%ADnez-prieto-a42406166/)
-
 ## 🤝 Contributing
 
 - GitHub: [@HansZizold](https://github.com/HansZizold)
