@@ -1,11 +1,12 @@
 # My-Portfolio
 
-> This is an HTML project about my portfolio, here comes the first 2 sections, then the projects section where you can see a few projects,about me section and the form section, this porject is responsive for a 375px screen(mobile screen) and a 1021px screen(desktop screen).
+> This is an HTML project about my portfolio, here it comes all the section (projects, about me and contact), this project is responsive for a 375px screen(mobile screen) and a 1024px screen(desktop screen). At this time has a few interaction with the DOM made out with javaScript.
 
 ## Built With
 
 - Html
 - Css
+  -JavaScript
 - Linters
 - Formspree
 
@@ -16,8 +17,12 @@ https://maury18.github.io/My-Portfolio/
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+Copy the SSH code to download all the files.
 
 ### Prerequisites
+
+Github.
+Code editor.
 
 ### Setup
 
@@ -37,13 +42,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: https://twitter.com/MauryRodrguez6
 - LinkedIn:https://www.linkedin.com/in/mauricio-gallegos-rodr%C3%ADguez-380a96183/
 
-👤 **Author2**
-
-- GitHub: [@mikemtzp](https://github.com/mikemtzp)
-- Twitter: [@mikemtzp](https://twitter.com/mikemtzp)
-- LinkedIn: [Migue Martínez Prieto](https://www.linkedin.com/in/miguel-mart%C3%ADnez-prieto-a42406166/)
-
 ## 🤝 Contributing
+
+- GitHub: [@HansZizold](https://github.com/HansZizold)
+- Twitter: [@hanzio27](https://twitter.com/hanzio27)
+- LinkedIn: [Hans Zizold](https://www.linkedin.com/in/hans-paul-zizold-37129037/)
 
 Contributions, issues, and feature requests are welcome!
 
