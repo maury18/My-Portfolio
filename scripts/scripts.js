@@ -360,3 +360,36 @@ function emailValidation(e) {
   }
 }
 form.addEventListener('submit', emailValidation);
+
+/* STORAGE */
+const username = document.getElementById('form-name');
+const email = document.getElementById('form-email');
+const message = document.getElementById('form-text-area');
+const formSubmit = document.getElementById('form-submit');
+
+function saveData() {
+  const nameValue = username.value;
+  const emailValue = email.value;
+  const messageValue = message.value;
+  const user = {
+    nameValue,
+    emailValue,
+    messageValue,
+  };
+  if (nameValue && emailValue && messageValue) {
+    const userValue = JSON.stringify(user);
+    localStorage.setItem('user', userValue);
+  }
+}
+formSubmit.addEventListener('click', saveData);
+username.addEventListener('keyup', saveData);
+email.addEventListener('keyup', saveData);
+message.addEventListener('keyup', saveData);
+
+/* Pre-Data */
+if (localStorage.getItem('user')) {
+  const user = JSON.parse(localStorage.getItem('user'));
+  username.value = user.nameValue;
+  email.value = user.emailValue;
+  message.value = user.messageValue;
+}
