@@ -237,14 +237,20 @@
                     that
                     you need built or a project <br> that needs coding. I’d love to help with it </p>
 
-                <form class="container" action="https://formspree.io/f/mwkywowd" method="post">
+                <form class="container form-validation" action="https://formspree.io/f/mwkywowd" method="post">
                     <fieldset>
-                        <input class="text" type="text" name="name" placeholder="Maury" maxlength="30" required />
-                        <input class="email" type="email" name="email" placeholder="maury94@gmail.com" required />
-                        <textarea class="text-area" name="message" cols="30" rows="10"
+                        <input class="text" type="text" name="name" id="form-name" placeholder="Maury" maxlength="30"
+                            required />
+                        <input class="email" type="email" name="email" id="form-email" placeholder="maury94@gmail.com"
+                            required />
+                        <textarea class="text-area" name="message" id="form-text-area" cols="30" rows="10"
                             placeholder="Write your message here" maxlength="500" required></textarea>
-                        <button type="submit" class="submit">Get it touch</button>
+
                     </fieldset>
+                    <div id="form-error" class="form-error"></div>
+                    <div class="form-button">
+                        <button type="submit" class="submit" value="submit" id="form-submit">Get it touch</button>
+                    </div>
                 </form>
             </section>
         </div>
