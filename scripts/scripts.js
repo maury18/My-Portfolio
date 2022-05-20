@@ -11,12 +11,12 @@ const navSlide = () => {
   const blur3 = document.querySelector('.info-heading2');
   const blur4 = document.querySelector('.icons');
   icon.addEventListener('click', () => {
-    nav.style.display = ('flex');
-    nav.style.display = ('flex');
-    header.style.marginTop = ('-8rem');
-    overFlowY.style.overflowY = ('hidden');
+    nav.style.display = 'flex';
+    nav.style.display = 'flex';
+    header.style.marginTop = '-8rem';
+    overFlowY.style.overflowY = 'hidden';
     backOpacity.classList.add('info-back-opacity');
-    infoBackDisable.style.display = ('none');
+    infoBackDisable.style.display = 'none';
     blur.classList.add('blur');
     blur2.classList.add('blur');
     blur3.classList.add('blur');
@@ -41,11 +41,11 @@ const navClose = () => {
   const blur4 = document.querySelector('.icons');
 
   closeMenu.addEventListener('click', () => {
-    navClose.style.display = ('none');
-    headerShows.style.marginTop = ('0');
-    overFlowY.style.overflowY = ('scroll');
+    navClose.style.display = 'none';
+    headerShows.style.marginTop = '0';
+    overFlowY.style.overflowY = 'scroll';
     backOpacity.classList.remove('info-back-opacity');
-    infoBackDisable.style.display = ('block');
+    infoBackDisable.style.display = 'block';
     blur.classList.remove('blur');
     blur2.classList.remove('blur');
     blur3.classList.remove('blur');
@@ -70,10 +70,10 @@ const linksSection = () => {
   const backOpacity = document.querySelector('.info-back-image');
 
   project.addEventListener('click', () => {
-    overFlowY.style.overflowY = ('scroll');
-    links.style.display = ('none');
-    headerShows.style.marginTop = ('0');
-    infoBackDisable.style.display = ('block');
+    overFlowY.style.overflowY = 'scroll';
+    links.style.display = 'none';
+    headerShows.style.marginTop = '0';
+    infoBackDisable.style.display = 'block';
     blur.classList.remove('blur');
     blur2.classList.remove('blur');
     blur3.classList.remove('blur');
@@ -82,10 +82,10 @@ const linksSection = () => {
   });
 
   about.addEventListener('click', () => {
-    overFlowY.style.overflowY = ('scroll');
-    links.style.display = ('none');
-    headerShows.style.marginTop = ('0');
-    infoBackDisable.style.display = ('block');
+    overFlowY.style.overflowY = 'scroll';
+    links.style.display = 'none';
+    headerShows.style.marginTop = '0';
+    infoBackDisable.style.display = 'block';
     blur.classList.remove('blur');
     blur2.classList.remove('blur');
     blur3.classList.remove('blur');
@@ -94,10 +94,10 @@ const linksSection = () => {
   });
 
   form.addEventListener('click', () => {
-    overFlowY.style.overflowY = ('scroll');
-    links.style.display = ('none');
-    headerShows.style.marginTop = ('0');
-    infoBackDisable.style.display = ('block');
+    overFlowY.style.overflowY = 'scroll';
+    links.style.display = 'none';
+    headerShows.style.marginTop = '0';
+    infoBackDisable.style.display = 'block';
     blur.classList.remove('blur');
     blur2.classList.remove('blur');
     blur3.classList.remove('blur');
@@ -107,61 +107,70 @@ const linksSection = () => {
 };
 linksSection();
 
-const cardProjects = [{
-  id: 1,
-  name: 'Tonic',
-  heading1: 'CANOPY',
-  heading2: 'Back End Dev',
-  heading3: '2015',
-  image: './img/Mobile-version/popup/image1.png',
-  shortdescription: ' A daily selection of privately <br /> personalized reads; no accounts or <br /> sign-ups required.',
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  languages: ['html', 'css', 'javaScript'],
-  live: 'See live',
-  source: 'See source',
-},
+const cardProjects = [
+  {
+    id: 1,
+    name: 'Tonic',
+    heading1: 'CANOPY',
+    heading2: 'Back End Dev',
+    heading3: '2015',
+    image: './img/Mobile-version/popup/image1.png',
+    shortdescription:
+      ' A daily selection of privately <br /> personalized reads; no accounts or <br /> sign-ups required.',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    languages: ['html', 'css', 'javaScript'],
+    live: 'See live',
+    source: 'See source',
+  },
 
-{
-  id: 2,
-  name: 'Multi-Post Stories',
-  heading1: 'CANOPY',
-  heading2: 'Back End Dev',
-  heading3: '2015',
-  image: './img/Mobile-version/popup/image2.png',
-  shortdescription: ' A daily selection of privately <br /> personalized reads; no accounts or <br /> sign-ups required.',
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  languages: ['html', 'css', 'javaScript'],
-  live: 'See live',
-  source: 'See source',
-},
+  {
+    id: 2,
+    name: 'Multi-Post Stories',
+    heading1: 'CANOPY',
+    heading2: 'Back End Dev',
+    heading3: '2015',
+    image: './img/Mobile-version/popup/image2.png',
+    shortdescription:
+      ' A daily selection of privately <br /> personalized reads; no accounts or <br /> sign-ups required.',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    languages: ['html', 'css', 'javaScript'],
+    live: 'See live',
+    source: 'See source',
+  },
 
-{
-  id: 3,
-  name: 'Tonic',
-  heading1: 'CANOPY',
-  heading2: 'Back End Dev',
-  heading3: '2015',
-  image: './img/Mobile-version/popup/image3.png',
-  shortdescription: ' A daily selection of privately <br /> personalized reads; no accounts or <br /> sign-ups required.',
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  languages: ['html', 'css', 'javaScript'],
-  live: 'See live',
-  source: 'See source',
-},
+  {
+    id: 3,
+    name: 'Tonic',
+    heading1: 'CANOPY',
+    heading2: 'Back End Dev',
+    heading3: '2015',
+    image: './img/Mobile-version/popup/image3.png',
+    shortdescription:
+      ' A daily selection of privately <br /> personalized reads; no accounts or <br /> sign-ups required.',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    languages: ['html', 'css', 'javaScript'],
+    live: 'See live',
+    source: 'See source',
+  },
 
-{
-  id: 4,
-  name: 'Multi-Post Stories',
-  heading1: 'CANOPY',
-  heading2: 'Back End Dev',
-  heading3: '2015',
-  image: './img/Mobile-version/popup/image4.png',
-  shortdescription: ' A daily selection of privately <br /> personalized reads; no accounts or <br /> sign-ups required.',
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  languages: ['html', 'css', 'javaScript'],
-  live: 'See live',
-  source: 'See source',
-},
+  {
+    id: 4,
+    name: 'Multi-Post Stories',
+    heading1: 'CANOPY',
+    heading2: 'Back End Dev',
+    heading3: '2015',
+    image: './img/Mobile-version/popup/image4.png',
+    shortdescription:
+      ' A daily selection of privately <br /> personalized reads; no accounts or <br /> sign-ups required.',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    languages: ['html', 'css', 'javaScript'],
+    live: 'See live',
+    source: 'See source',
+  },
 ];
 
 const body = document.querySelector('main');
