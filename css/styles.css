@@ -1025,7 +1025,7 @@ fieldset {
   display: block;
   width: 70%;
   border-radius: 1rem;
-  margin: -1.5rem 0 1rem 0;
+  margin: -1.5rem 0 1rem 1rem;
   border: 0.2rem solid #fff;
   text-align: start;
   text-transform: uppercase;
@@ -1077,6 +1077,12 @@ fieldset {
 
   .form-button {
     padding-bottom: 4rem;
+  }
+
+  .form-error {
+    width: 40%;
+    margin: -1.5rem auto 1rem auto;
+    text-align: center;
   }
 
   .submit {
