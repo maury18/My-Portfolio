@@ -920,7 +920,7 @@ li {
 }
 
 .form-section {
-  background-color: #0016df;
+  background-color: #6070ff;
   border-top-left-radius: 10rem;
   padding-top: 5rem;
   position: relative;
@@ -1026,7 +1026,6 @@ fieldset {
   width: 70%;
   border-radius: 1rem;
   margin: -1.5rem 0 1rem 1rem;
-  border: 0.2rem solid #fff;
   text-align: start;
   text-transform: uppercase;
 }
