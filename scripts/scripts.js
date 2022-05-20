@@ -342,3 +342,21 @@ for (let i = 0; i < cardProjects.length; i += 1) {
     });
   });
 }
+
+/* FORM VALIDATION */
+const form = document.querySelector('.form-validation');
+const formEmail = document.getElementById('form-email');
+const formError = document.getElementById('form-error');
+
+function emailValidation(e) {
+  const showMessage = [];
+  e.preventDefault();
+  if (formEmail.value !== formEmail.value.toLowerCase()) {
+    formError.style.display = 'block';
+    showMessage.push('Email must be in lowercase');
+    formError.innerText = showMessage.join(',');
+  } else {
+    form.submit();
+  }
+}
+form.addEventListener('submit', emailValidation);
