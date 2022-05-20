@@ -980,6 +980,7 @@ fieldset {
   border-radius: 1rem;
   margin-bottom: 1.5rem;
   border: none;
+  z-index: 1000 !important;
 }
 
 .text-area {
@@ -987,6 +988,7 @@ fieldset {
 }
 
 .submit {
+  position: relative;
   background-color: #fff;
   color: #0016df;
   font-size: 1.7rem;
@@ -997,7 +999,9 @@ fieldset {
   text-transform: capitalize;
   transition: 0.5s ease;
   margin-bottom: 4rem;
+  margin-left: 1rem;
   align-self: flex-start;
+  z-index: 1000 !important;
 }
 
 .submit:hover {
@@ -1011,6 +1015,20 @@ fieldset {
   padding: 2.5rem 1.5rem;
   -webkit-box-shadow: 0 0 1.3rem 1rem #fff;
   box-shadow: 0 0 1.3rem 1rem #fff;
+}
+
+.form-error {
+  padding: 0.5rem;
+  font-size: 1.7rem;
+  color: #fff;
+  font-weight: 700;
+  display: block;
+  width: 70%;
+  border-radius: 1rem;
+  margin: -1.5rem 0 1rem 0;
+  border: 0.2rem solid #fff;
+  text-align: start;
+  text-transform: uppercase;
 }
 
 @media (min-width: 1024px) {
@@ -1050,14 +1068,20 @@ fieldset {
     margin-right: auto;
     margin-left: auto;
     border-radius: 0;
+    z-index: 1000 !important;
   }
 
   .text-area {
     padding: 1rem 1rem 0 1rem;
   }
 
+  .form-button {
+    padding-bottom: 4rem;
+  }
+
   .submit {
     width: 20%;
-    margin: 2rem auto 15rem auto;
+    display: block;
+    margin: 0 auto;
   }
 }
